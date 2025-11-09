@@ -19,3 +19,5 @@ st.success(f"你选择了 {option}！")
 
 x = st.slider("选择一个数：", 0, 100, 50)
 st.write(f"{x} 的平方是：{x**2}")
+st.markdown("$$\int_0^\infty f(x)\mathbb{d}x 666$$")
+
